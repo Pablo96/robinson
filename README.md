@@ -1,5 +1,14 @@
-Robinson
-========
+# Robinson Fork / Pablo Narvaja
+* window support for Windows with winapi (win32) 
+* render to window client area
+* droped support for pdf file
+
+`Note:` Looks like Matt Brubeck droped the project so the 'comming
+soon' section is kinda paused for ever, I'll try to make some of them
+but my goal with this project isn't really html parsing but a custom
+subset for GUI building.
+
+# Robinson original README
 
 A toy web rendering engine written in the Rust language, by Matt Brubeck
 (mbrubeck@limpet.net).
@@ -27,8 +36,7 @@ how-to articles based on this project.
 
 [blog]: http://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html
 
-Status
-------
+# Status
 
 Currently implemented:
 
@@ -43,8 +51,7 @@ Coming soon, I hope:
 * Paint text and boxes.
 * Load resources from network or filesystem.
 
-Instructions
-------------
+# Instructions
 
 1. [Install Rust 1.0 beta or newer.](http://www.rust-lang.org/install.html)
 
@@ -64,3 +71,6 @@ executable to change the input files:
 The rendered page will be saved to a file named `output.png`.  To change the
 output filename, use the `-o` option.  To switch to PDF output, use add
 `--format pdf`.
+
+
+
