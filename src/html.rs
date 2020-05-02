@@ -26,8 +26,8 @@ pub fn parse(source: String) -> dom::Node {
 }
 
 struct Parser {
-    pos: usize,
-    input: String,
+    pos: usize,     // position in the input
+    input: String,  // whole file
 }
 
 impl Parser {

@@ -89,9 +89,9 @@ fn main() {
 }
 
 fn read_source(filename: String) -> String {
-    let mut str = String::new();
-    File::open(filename).unwrap().read_to_string(&mut str).unwrap();
-    str
+    let mut stringfied_file = String::new();
+    File::open(filename).unwrap().read_to_string(&mut stringfied_file).unwrap();
+    stringfied_file
 }
 
 fn save_to_file(canvas: &painting::Canvas, filename: &str, is_png: bool) {
